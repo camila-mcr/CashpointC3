@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cliente</title>
+    <title>Cashpoint</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="css/alertify.min.css" />
 </head>
+
 <body>
+
+  <div class="container bg-dark text-white text-center mt-4 shadow-lg p-3 mb-5  rounded "> 
+    <h1>CASHPOINT</h1>
+    <img src="img/dollar.png" alt="logo">
+  </div>
     
     <div class="container mt-4 shadow-lg p-3 mb-5  rounded ">
-        <button id="btnCrear" type="button" class="btn btn-primary">Crear Cliente</button>
+        <button id="btnCrear" type="button" class="btn btn-dark">Crear Cliente</button>
     
         <table id="clientes" class="table mt-2 table-bordered table-striped">
           <thead>
@@ -56,8 +62,8 @@
                     oninput="setCustomValidity('')">
                 </div>
                 <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                  <button type="submit" class="btn btn-primary">Guardar</button>
+                  <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Cerrar</button>
+                  <button type="submit" class="btn btn-dark">Guardar</button>
                 </div>
               </form>
             </div>
